@@ -7,7 +7,7 @@ To create an Openshift TT-RSS instance:
 
 **Feel free to replace 'ttrss' with a different name.**
 
-    $ rhc app create ttrss php-5.4 postgresql-9.2 cron-1.4 --from-code=https://github.com/disconn3ct/tiny_tiny_rss-openshift-quickstart.git --timeout=9999
+    $ rhc app create ttrss php-5.4 postgresql-9.2 cron-1.4 --from-code=https://github.com/shemgp/tiny_tiny_rss-openshift-quickstart.git --timeout=9999
     
     Application Options
     -------------------
@@ -29,7 +29,7 @@ That is ok, it is a bug with OpenShift. It probably succeeded, but you will have
 Once you have a repository (manually or automatically) you will probably want to add my repository as 'upstream':
 
     $ cd ttrss
-    $ git remote add upstream -m master https://github.com/disconn3ct/tiny_tiny_rss-openshift-quickstart.git
+    $ git remote add upstream -m master https://github.com/shemgp/tiny_tiny_rss-openshift-quickstart.git
 
 TTRSS is now installed!
 
