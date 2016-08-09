@@ -180,7 +180,7 @@
 	// if you experience weird errors and tt-rss failing to start, blank pages
 	// after login, or content encoding errors, disable it.
 
-	define('PLUGINS', 'auth_internal, note, digest, search_sphinx', 'api_feedreader');
+	define('PLUGINS', 'auth_internal, note, digest, search_sphinx, api_feedreader');
 	// Comma-separated list of plugins to load automatically for all users.
 	// System plugins have to be specified here. Please enable at least one
 	// authentication plugin here (auth_*).
